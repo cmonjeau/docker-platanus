@@ -1,4 +1,4 @@
-### Platanus description ###
+### Platanus v1.2.4 description ###
 
 Platanus is a novel de novo sequence assembler that can reconstruct genomic sequences of
 highly heterozygous diploids from massively parallel shotgun sequencing data.

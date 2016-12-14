@@ -1,5 +1,5 @@
 ################################################
-# Dockerfile to build Plantanus software
+# Dockerfile to build Platanus 1.2.4 software
 # Based on debian image
 ################################################
 
