@@ -7,15 +7,17 @@ http://platanus.bio.titech.ac.jp/
 
 ### Run platanus tools help###
 
-docker run -it --rm cmonjeau/platanus Platanus
-docker run -it --rm cmonjeau/platanus Platanus_trim
-docker run -it --rm cmonjeau/platanus platanus_internal_trim
+```
+docker run -it --rm cmonjeau/platanus:1.2.1 Platanus
+docker run -it --rm cmonjeau/platanus:1.2.1 Platanus_trim
+docker run -it --rm cmonjeau/platanus:1.2.1 platanus_internal_trim
+```
 
 ### Run platanus using Godocker (http://www.genouest.org/godocker/)
 
 Create a new job with these parameters:
 
-"Container image" : cmonjeau/platanus
+"Container image" : cmonjeau/platanus:1.2.1
 
 "Command" : 
 
