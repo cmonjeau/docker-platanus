@@ -1,5 +1,5 @@
 ################################################
-# Dockerfile to build Plantanus software
+# Dockerfile to build Platanus v1.2.1 software
 # Based on debian image
 ################################################
 
@@ -10,7 +10,7 @@ FROM debian:latest
 ENV DEBIAN_FRONTEND noninteractive
 ENV PACKAGES wget make gcc g++ mafft unzip
 
-ENV PLATANUS_BINARY http://platanus.bio.titech.ac.jp/?ddownload=145
+ENV PLATANUS_BINARY http://platanus.bio.titech.ac.jp/?ddownload=157
 ENV PLATANUS_TRIM_BINARY http://platanus.bio.titech.ac.jp/?ddownload=153
 ENV PLATANUS_INTERNAL_TRIM_BINARY http://platanus.bio.titech.ac.jp/?ddownload=154
 
