@@ -7,9 +7,11 @@ http://platanus.bio.titech.ac.jp/
 
 ### Run platanus tools help###
 
+```
 docker run -it --rm cmonjeau/platanus Platanus
 docker run -it --rm cmonjeau/platanus Platanus_trim
 docker run -it --rm cmonjeau/platanus platanus_internal_trim
+```
 
 ### Run platanus using Godocker (http://www.genouest.org/godocker/)
 
